@@ -32,46 +32,22 @@ body{
     margin:20px auto;
     padding:10px;
 }
-.col-1 img{
-    width:100%;
-    border-radius:15px; 
+.data-info{
+    margin-bottom:15px; 
  }
+ 
  .profileName{
     font-weight: bold;
     
     font-size: 15px;
     text-align: center;
  }
-.dayOfWeek{
-font-weight: 400;
-font-size: 1.5rem;
-}
 
-.time{
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top: 5%;
-}
-.track{
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top: 5%;
-    margin-bottom: auto;
 
-}
-
-.repository{
-    display:inline-block;
-    cursor: pointer;
-    transform: scale(1.2);
-    text-decoration:none;
-}
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .header{
      
-        width:80%;
+        width:100%;
         padding:20px;
         justify-content: space-between;
         display: flex;
